@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
+.back2{
+    height: 100%;
+    width: 100%;
+}
+.back1{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;/*agr image choti hoti hai toh woh repeat hoti rehti h so to dint repeat image we use it*/
+    background-image: url('./first.jpeg');/*always give the relative path bcoz sbke laptop mein same jgh store nhi hoga*/
+    background-size: cover;/*full size leleta h hmari screen ka*/
+    background-attachment: fixed;
+}
+.ground1{
+height:100vh;
+background-color: rgba(0,0,0,0.5);/*a hota h alpha value kitna light hona chahiye woh color*/
+background-attachment: fixed;
+}       
+.content1{
+            text-transform: uppercase;/*jitna bhi text chotu h use bda krdegi*/
+            font-family: 'Zilla Slab', serif;/*google fonts likh select kro embed pr click import phir yeah css mein likho n upr link import krke daalo*/
+            font-size: 40px;
+            color: rgba(0,0,0,0.5);
+            display: flex;/*hmara div wgera horizontal hota h by default ro mein hota h display flex usey vertical krta h mtlb adjustable within a parent*/
+            align-items: center;/*content ko pura vertically center mein krega*/
+            justify-content: center;/*content kohorizontally centre mein krega*/
+            letter-spacing: 5px;
+            height: 100%; 
+            background-attachment: fixed;
+ }
+.parisback{
+          background-image: url('./paris.jpeg');
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          width: 100%;
+          display: flex;
+          align-items: center;
+         text-align: center; 
+        
+}
+.textbox{
+    margin-left: 25%;/*content ke bhr ki space*/
+    width: 48%;
+    height: 50%;
+    background-color:rgba(255,255,255,0.7);
+    border-radius: 2%;
+    background-attachment: fixed;
+}
+.parishead{
+    text-align: center;
+    font-weight: 20px;
+    font-size: 25px;
+   
+}
+.pariscontent{
+    text-align: left;
+    font-size: 15px;
+    padding: 10px; 
+}
+.advback{
+    background-image: url('./adv.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   text-align: center; 
+  
+}
+.textbox2{
+margin-left: 25%;
+width: 48%;
+height: 50%;
+background-color:rgba(255,255,255,0.7);
+border-radius: 2%;
+background-attachment: fixed;
+}
+.advhead{
+text-align: center;
+font-weight: 20px;
+font-size: 25px;
+
+}
+.advcontent{
+text-align: left;
+font-size: 15px;
+padding: 10px; 
+}
+.expback{
+    background-image: url('./trav.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   text-align: center; 
+  
+}
+.textbox3{
+margin-left: 25%;
+width: 48%;
+height: 50%;
+background-color:rgba(255,255,255,0.7);
+border-radius: 2%;
+background-attachment: fixed;
+}
+.exphead{
+text-align: center;
+font-weight: 20px;
+font-size: 25px;
+
+}
+.expcontent{
+text-align: left;
+font-size: 15px;
+padding: 10px; 
+}
+.link{
+    text-decoration: none;
+    transition: 0.4s ease;
+    color: rgba(255,255,255,0.7);
+}
+*{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+}
+.foot{
+    letter-spacing: 1px;;
+    font-weight: 400;
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 0, 0, 0);
+}
+::-webkit ::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
+::-webkit-scrollbar{
+    width:5px;
+}
